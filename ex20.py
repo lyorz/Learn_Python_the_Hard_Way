@@ -4,6 +4,7 @@ def print_all(f):
     print(f.read())
 
 def rewind(f):
+    #移动文件读取指针到指定位置
     f.seek(0)
 
 def print_a_line(line_count,f):
